@@ -11,7 +11,7 @@
 
 Cordova:
 
-    cordova plugin add https://github.com/tomloprod/cordova-plugin-fakelocations.git
+    cordova plugin add https://github.com/tomloprod/cordova-plugin-fakelocation.git
 
 ## Usage
 
