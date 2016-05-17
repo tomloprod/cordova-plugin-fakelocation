@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-fakelocation" version="1.0">
+
+
+	<name>FakeLocation</name>
+	<description>Checks if "allow mock locations" are enabled</description>
+	<license>MIT</license>
+	<keywords>cordova, ionic, test-locations, fake-locations, mock-locations, android</keywords>
+	
+    <js-module src="www/FakeLocation.js" name="FakeLocation">
+            <clobbers target="cordova.plugins.fakeLocation" />
+	</js-module>
+		
+  <platform name="android">
+  
+    <config-file target="res/xml/config.xml" parent="/*">
+		<feature name="FakeLocation">
+			<param name="android-package" value="tomloprod.FakeLocation"/>
+		</feature>
+    </config-file>
+	
+	<config-file target="AndroidManifest.xml" parent="/*">
+        <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	</config-file>
+	
+    <source-file src="src/android/FakeLocation.java" target-dir="src/tomloprod/fakelocation"/>
+  
+  </platform>
+
+</plugin>
