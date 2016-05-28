@@ -10,9 +10,11 @@
 		<clobbers target="cordova.plugins.fakeLocation" />
 	</js-module>
 	
+	<!-- It is not necessary! I did not know!
 	<config-file target="AndroidManifest.xml" parent="/*">
 		<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
 	</config-file>
+	-->
 	
 	<platform name="android">
 		
