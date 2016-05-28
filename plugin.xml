@@ -9,7 +9,11 @@
 	
     <js-module src="www/FakeLocation.js" name="FakeLocation">
             <clobbers target="cordova.plugins.fakeLocation" />
-	</js-module>
+    </js-module>
+    
+    <engines>
+	<engine name="cordova" version=">=3.0.0"/>
+    </engines>
 		
   <platform name="android">
   
