@@ -19,9 +19,6 @@
 			</feature>
 		</config-file>
 		
-		<config-file target="AndroidManifest.xml" parent="/*">
-			<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
-		</config-file>
 		
 		<source-file src="src/android/FakeLocation.java" target-dir="src/tomloprod/fakelocation"/>
 		
