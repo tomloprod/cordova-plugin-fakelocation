@@ -1,4 +1,4 @@
-# cordova-plugin-fakelocations
+# cordova-plugin-fakelocations  [![License](https://img.shields.io/github/license/tomloprod/cordova-plugin-fakelocation.svg)](http://www.opensource.org/licenses/mit-license.php)
 
 **FakeLocation** is a cordova plugin to check if "Allow mock locations" are enabled or disabled in android devices.
 
