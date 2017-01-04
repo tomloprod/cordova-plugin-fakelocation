@@ -5,7 +5,7 @@
 
 ## Supported Platforms
 
-- Android
+- Android < 6.0 (*doesn't support Marshmallow yet*)
 
 ## Installation
 
