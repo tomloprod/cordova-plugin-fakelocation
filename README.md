@@ -19,7 +19,7 @@ This plugin exports an object with one method called "check" which returns true 
 
 ```javascript
 window.plugins.fakeLocation.check(function(IsEnabledMockLocations){
-	console.log(IsEnabledMockLocations);
+    console.log(IsEnabledMockLocations);
 });
 ```
 
